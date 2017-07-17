@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="FoodBook is helping people to keep track of your food in the most symple and easy way learn more.....">
+    <title>FoodBook</title>
+  </head>
+  <body>
+    <h1>Welcome to FoodBook!</h1>
+    <h3>Please Register</h3>
+    <form class="registration" action="index.html" method="post">
+      <label for="firt_name">First Name</label>
+      <input type="text" id="first_name">
+      <br>
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last_name" id="last_name">
+      <br>
+      <label for="e-mail">Email</label>
+      <input type="text" name="e-mail" id="e-mail">
+
+      <h3>Select your gender</h3>
+      <label for="male">Male</label>
+      <input type="radio" name="male" id="male">
+      <label for="female">Female</label>
+      <input type="radio" name="female" id="female">
+
+      <h3>Select the types of food that you like the most</h3>
+      <label for="fruits">Fruits</label>
+      <input type="checkbox" name="fruits" value="" id="fruits">
+
+      <label for="veggies">Veggies</label>
+      <input type="checkbox" name="veggies" value="" id="veggies">
+
+      <label for="mouseFood">MouseFood</label>
+      <input type="checkbox" name="mouseFood" value="mouseFood" id="mouseFood">
+
+      <h3>Select you favorite color</h3>
+      <select class="colors" name="colors">
+          <option value="red">Red</option>
+          <option value="pink">Pink</option>
+          <option value="Green">Green</option>
+      </select>
+      <h3>Tell us a litle bit bout yourself</h3>
+      <textarea name="description">My name is ....</textarea>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+
+      <label for="password_confirmation">Password Confirmation</label>
+      <input type="password" name="password_confirmation" id="password_confirmation">
+      <label for="submit"></label>
+      <input type="submit" name="submit" value="Click here to submit your application">
+    </form>
+  </body>
+</html>
